@@ -1,0 +1,3 @@
+importlib_metadata
+paho-mqtt
+pyicloud
