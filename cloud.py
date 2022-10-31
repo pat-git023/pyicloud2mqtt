@@ -43,6 +43,7 @@ def post_device_updates(sc):
         mydevice["id"] = device.data["id"]
         mydevice["name"] = device.data["name"]
         mydevice["batteryLevel"] = device.data["batteryLevel"]
+        mydevice["batteryLevel_percentage"] = int('{:.0f}'.format(device.data["batteryLevel"]*100))
         mydevice["batteryStatus"] = device.data["batteryStatus"]
         mydevice["lowPowerMode"] = device.data["lowPowerMode"]
         mydevice["location"] = device.data["location"]
