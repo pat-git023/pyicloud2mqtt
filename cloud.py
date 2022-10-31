@@ -18,7 +18,7 @@ icloudPassword = os.getenv("ICLOUD_PASS")
 mqtt_hostname= os.getenv("MQTT_HOSTNAME")
 mqtt_port = os.getenv("MQTT_PORT", "1883")
 mqtt_user = os.getenv("MQTT_USER")
-mqtt_pass = os.getenv("MQTT_PASS")
+mqtt_pass = os.getenv("MQTT_PASSWORD")
 mqtt_basepath = os.getenv("MQTT_BASEPATH", "icloud/")
 update_intervall = os.getenv("UPDATE_INTERVAL", "5")
 
