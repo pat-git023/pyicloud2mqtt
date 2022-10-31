@@ -1,5 +1,2 @@
 docker:
-	docker build -t pyicloud_mqtt:latest .
-
-build:
-	pip install -r requirements.txt
+	docker build -t patrickgell/pyicloud2mqtt:latest .
