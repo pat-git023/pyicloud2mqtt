@@ -1,0 +1,8 @@
+ICLOUD_ACCOUNT=<your apple id>
+ICLOUD_PASS=<your apple password>
+MQTT_HOSTNAME=<hostname for mqtt broker>
+MQTT_PORT=<port of mqtt broker>
+MQTT_USER=<username for mqtt broker>
+MQTT_PASSWORD=<password for mqtt broker>
+MQTT_BASEPATH=<path of mqtt topic e.g. homeassistant/component/>
+UPDATE_INTERVAL=<interval in minutes to retrieve data from icloud (default: 5)>
